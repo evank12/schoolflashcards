@@ -14,19 +14,10 @@ body {
     border-radius: 50px;
     background: linear-gradient(145deg, #ff7b7b, #ffdf7b);
     box-shadow: 8px 8px 15px #d1d1d1, -8px -8px 15px #ffffff;
+    text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
     position: absolute;
     top: 20px;  /* Position from the top */
     left: 20px; /* Position from the left */
-    animation: bubble-animation 2s infinite alternate;
-}
-
-@keyframes bubble-animation {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
 }
